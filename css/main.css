@@ -1822,7 +1822,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #302eff;
+  background: #133b88;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2660,10 +2660,28 @@ embed {
 .links-of-blogroll-inline .links-of-blogroll-item {
   display: inline-block;
 }
+.post-block {
+  padding: 40px;
+  background: #fff;
+  box-shadow: $box-shadow-inner;
+  border-radius: $border-radius-inner;
+}
 body {
   background: url("/images/bkgd.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
   background-position: 50% 50%;
+}
+.content-wrap {
+  opacity: 0.8;
+}
+.sidebar {
+  opacity: 0.8;
+}
+.header-inner {
+  background: rgba(255,255,255,0.9);
+}
+.popup {
+  opacity: 0.5;
 }
